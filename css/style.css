@@ -1,0 +1,165 @@
+/* import fonts from font.css file*/
+@import url(./fonts.css);
+
+/*css variable*/
+@import url(./partial/_variables.css);
+/* import global styling */
+@import url(./partial/_global.css); 
+
+/* Start Navigation */
+.header_area .main-menu .navbar .navbar-brand{
+    padding:0 2rem 0 1rem;
+}
+.header_area .main-menu .navbar{
+    padding:1rem 8rem;
+}
+.header_area .main-menu .nav-item .nav-link{
+    font:normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1rem;
+    color:var(--title-color);
+}
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/*End Navigation*/
+
+/* Start Banner Area*/
+.site-main .site-banner .site-title h3{
+  padding-top: 35%;
+  font-weight: 500;
+ }
+ .site-main .site-banner .site-title h3::after{
+     content: " ";
+     height: 2px;
+     width: 18vw;
+     background: black;
+     display: inline-block;
+     margin-left: 5%;
+     transform: translateY(-10px);
+ }
+ .site-main .site-banner .site-title h1{
+     font-size: 5rem;
+ }
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+.site-main .site-banner .banner-image>img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+/*End Banner Area*/
+
+/*Start About Area*/
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+.site-main .about-area .about-title h2>span{
+    display: block;
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 11px;
+}
+.site-main .about-area .about-title .paragraph>p{
+    padding: .4rem 0;
+}
+/*End About Area*/
+
+/*Start Education Area*/
+.text-dark{
+    font: normal bold 49px/60px var(--roboto);
+}
+.section-4 .col-md-8 p{
+   font: normal 500 16px/25px var(--roboto) ;
+    color: var(--text-color); 
+}
+
+/*End Eduacation Area*/
+
+/*Start Skill and Ability Area*/
+.section-5 .card-body .ml-1 p{
+    font: normal 500 16px/25px var(--roboto) ;
+    color: var(--text-color);
+}
+
+/*End Skill and Ability Area*/
+
+/*Start My Gallary Area*/
+.site-main .project-area{
+    padding: 4rem 0;
+}
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+.site-main .project-area .button-group button+button{
+    padding-left: 3rem;
+}
+.site-main .project-area .grid .my-project .img a:hover img{
+    filter:brightness(1,1) drop-shadow(1px 8px 30px black);
+}
+
+/*End My Gallary Area*/
+
+/*Start Contact Area */
+.site-main .contact-area .subscribe{
+    background: url(../img/bg.jpg) no-repeat;
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+.site-main .contact-area .subscribe .subscribe-title h4{
+    font: normal 700 30px/30px var(--roboto);
+    color: whitesmoke;
+}
+.site-main .contact-area .subscribe .subscribe-title p{
+    color: whitesmoke;
+    padding: 1rem 4rem;
+}
+.site-main .contact-area .subscribe form .input-textbox input{
+    width: 400px;
+    padding: 1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font: normal 500 17px/20px var(--roboto);
+}
+.site-main .contact-area .subscribe form .input-textbox input::placeholder{
+    color: whitesmoke;
+}
+.site-main .contact-area .subscribe form .btn-submit button{
+    background: whitesmoke;
+    color: #000;
+}
+
+/*End Contact Area*/
+
+/*Start Footer Area*/
+.footer-area{
+    padding: 5rem 0;
+}
+.footer-area .social h5{
+    font: normal 500 23px/30px var(--roboto);
+}
+
+.footer-area .social a>i{
+    font-size: 42px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+ .footer-area .social a:hover>i{
+     color: var(--primary-color);
+ }
+
+/*End Footer Area*/
+
